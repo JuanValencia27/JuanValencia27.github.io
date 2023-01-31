@@ -1,0 +1,61 @@
+body{
+    background-image: url(body-bg.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.box-container{
+    margin-top: 3%;
+}
+
+.subtitulos{
+    color: purple;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.box1{
+    display: inline-block;
+    margin-left: 19%;
+    width: 20%;
+    text-align: center;
+}
+
+.box2{
+    display: inline-block; 
+    margin-left: 19.7%;
+    width: 20%;
+    text-align: center;
+}
+
+textarea{
+    width: 100%;
+    background-color: black;
+    color: green;
+    border: 5px solid green;
+}
+
+textarea:hover{
+    border: 5px solid purple;
+}
+
+button:active{
+    border: 5px solid purple;
+}
+
+button{
+    background-color: black;
+    border: 3px solid green;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+section{
+    margin-bottom: 57px;
+}
+
+
+
+

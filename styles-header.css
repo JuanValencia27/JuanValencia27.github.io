@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#code{
+    position: relative;
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 10%;
+    padding-bottom: 2%;
+}
+
+.tittle{
+    display: inline-block;
+    width: 40%;
+    margin-left: 18%;
+    padding-top: 1%;
+    border: 3px solid purple;
+}
+
+
+.social-media{
+    margin-left: 2%;
+    padding-bottom: 1%;
+}
+
+#linkedin{
+    width: 3%;
+}
+
+#twitter{
+    width: 3%;
+}
+
+#twitch{
+    width: 3%;
+}
+
+
+
+

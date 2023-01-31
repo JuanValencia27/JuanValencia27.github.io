@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles-header.css">
+    <link rel="stylesheet" href="styles-content.css">
+    <link rel="stylesheet" href="styles-footer.css">
+    <link rel="icon" href="icon.png"/>
+    <title>Encriptador Challenge</title>
+</head>
+<body>
+
+    <header>
+        <a href="https://github.com/JuanValencia27" target="_blank"><img src="code.png" alt="code" id="code"></a>
+        <img src="tittle.PNG" class="tittle"></img>
+        <nav class="social-media">
+            <a href="https://www.linkedin.com/in/juancarde%C3%B1o-v/" target="_blank"><img src="linkedin.png" alt="linkedin-logo" id="linkedin"></a>
+            <a href="https://twitter.com/JuanVal74170675" target="_blank"><img src="twitter.png" alt="twitter-logo" id="twitter"></a>
+            <a href="https://www.twitch.tv/kronox1663" target="_blank"><img src="twitch.png" alt="twitch-logo" id="twitch"></a>
+        </nav>
+    </header>
+
+    <section>
+
+        <div class="box-container">
+
+            <div class="box1">
+
+                <p class="subtitulos">TEXTO DESENCRIPTADO</p>
+                <label for="to-encrypt"></label>
+                <textarea name="to-encrypt" id="to-encrypt" cols="30" rows="10" placeholder="TEXTO A ENCRIPTAR"></textarea>
+                <button id="encrypt" onclick="encrypt()">ENCRIPTAR</button>
+                <button id="decryptCopy"  onclick="decryptCopy()"> COPIAR </button>
+
+            </div>
+        
+            <div class="box2">
+
+                <p class="subtitulos">TEXTO ENCRIPTADO</p>
+                <label for="encrypted"></label>
+                <textarea name="encrypted" id="encrypted" cols="30" rows="10" placeholder="TEXTO A DESENCRIPTAR"></textarea>
+                <button id="decrypt" onclick="decrypt()">DESENCRIPTAR</button>
+                <button id="encryptCopy"  onclick="encryptCopy()"> COPIAR </button>
+
+            </div> 
+
+        </div> 
+
+    </section>
+
+    <script src="scripts.js"></script>    
+
+    <footer>
+        <div class="footer">
+            <p> © ENCRIPTADOR CHALLENGE</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
